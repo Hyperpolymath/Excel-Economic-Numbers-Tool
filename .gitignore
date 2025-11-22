@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+.julia/
+Manifest.toml
+
+# Build outputs
+dist/
+build/
+*.so
+*.dll
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+*.cov
+.nyc_output/
+junit.xml
+
+# Cache
+.cache/
+*.cache
+.economic-toolkit/
+~/.economic-toolkit/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+*.oxt
+
+# Compiled files
+*.js.map
+*.d.ts
+
+# Documentation builds
+docs/build/
+
+# CI/CD
+.gitlab-ci-local/
+
+# Secrets
+*.pem
+*.key
+credentials.json
