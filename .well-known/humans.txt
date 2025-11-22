@@ -1,0 +1,137 @@
+# humanstxt.org - The humans responsible & technology colophon
+
+/* TEAM */
+
+Project Lead & Core Developer: Hyperpolymath
+Site: https://github.com/Hyperpolymath
+Location: Earth
+
+/* THANKS */
+
+Contributors: See CONTRIBUTORS.md
+Economic Data Providers: FRED, World Bank, IMF, OECD, DBnomics, ECB
+Open Source Community: Julia, TypeScript, ReScript communities
+Standards Bodies: RFC 9116 (security.txt), Contributor Covenant
+
+/* TECHNOLOGY COLOPHON */
+
+## Backend
+Language: Julia 1.10+
+HTTP Server: HTTP.jl with QUIC support
+Database: SQLite (persistent cache)
+Data Processing: DataFrames.jl, Statistics.jl
+Networking: Downloads.jl, JSON3.jl
+
+## Frontend
+Languages: TypeScript 5.2+, ReScript 11.0+, JavaScript (ES5 for LibreOffice)
+Build System: Webpack 5, ts-loader
+Testing: Jest 29, ts-jest
+Linting: ESLint 8, Prettier 3
+Package Manager: npm (Node 20+)
+
+## Office Integration
+Excel: Office.js API 1.7+
+LibreOffice: UNO API (Rhino JavaScript engine)
+Compatibility: Microsoft Excel 2016+, LibreOffice Calc 7.0+
+
+## Build & Deployment
+Build Tool: Just 1.0+ (command runner)
+CI/CD: GitLab CI/CD (6 stages), GitHub Actions
+Containerization: Podman 4.0+ (OCI-compliant)
+Package Format: .oxt (LibreOffice), manifest.xml (Excel)
+
+## Development Tools
+Version Control: Git 2.30+
+Code Formatting: JuliaFormatter, Prettier
+Documentation: Markdown (CommonMark)
+Examples: Jupyter notebooks (planned)
+
+## Data Sources (10+)
+Active:
+- FRED (Federal Reserve Economic Data)
+- World Bank (Global Development Indicators)
+- IMF (International Financial Statistics)
+- OECD (Economic Data)
+- DBnomics (Data Aggregator, 70+ providers)
+- ECB (European Central Bank)
+
+Stubs (Planned):
+- BEA (Bureau of Economic Analysis)
+- Census Bureau (US Demographic Data)
+- Eurostat (EU Statistical Data)
+- BIS (Bank for International Settlements)
+
+## Standards & Compliance
+RSR Framework: Rhodium Standard Repository
+TPCF: Tri-Perimeter Contribution Framework (Perimeter 3)
+Licenses: Dual MIT OR Palimpsest-0.8
+Security: RFC 9116 (security.txt), ISO/IEC 29147, ISO/IEC 30111
+Code of Conduct: Contributor Covenant 2.1 + Emotional Safety
+Accessibility: WCAG 2.1 AA (planned for web version)
+Semantic Versioning: semver.org
+
+## Economic Standards
+Data Standards: SDMX (Statistical Data and Metadata eXchange)
+Country Codes: ISO 3166
+Currency Codes: ISO 4217
+Accounting: SNA 2008 (System of National Accounts)
+
+## Performance Characteristics
+Cache: Configurable TTL (default 24 hours)
+Rate Limiting: Per-source (5-500 requests/minute)
+Retry Logic: Exponential backoff (2s → 4s → 8s)
+Offline Support: Full offline-first with cache fallback
+Scalability: Handles 1M+ data points
+
+## License
+Primary: MIT License
+Alternative: Palimpsest License v0.8
+SPDX: MIT OR Palimpsest-0.8
+File: LICENSE (MIT), LICENSE-PALIMPSEST.txt
+
+## Project Stats
+Version: 2.0.0-dev
+Lines of Code: ~17,000+
+Files: 60+
+Test Coverage: Target 95%+
+Languages: Julia, TypeScript, ReScript, JavaScript
+Started: 2025-11-22
+Status: Active Development
+
+## Contributing
+Guidelines: CONTRIBUTING.md
+Code of Conduct: CODE_OF_CONDUCT.md (Contributor Covenant 2.1)
+Maintainers: MAINTAINERS.md
+Security: SECURITY.md (RFC 9116 compliant)
+Changelog: CHANGELOG.md (Keep a Changelog format)
+
+## Links
+Repository: https://github.com/Hyperpolymath/excel-economic-number-tool-
+Issues: https://github.com/Hyperpolymath/excel-economic-number-tool-/issues
+Discussions: https://github.com/Hyperpolymath/excel-economic-number-tool-/discussions
+CI/CD: GitLab CI + GitHub Actions
+Documentation: docs/
+Examples: examples/
+
+## Philosophy
+"Empowering economists with open data, open source, and open science"
+
+Principles:
+- Offline-first architecture
+- Type safety where possible
+- Reproducible builds
+- Comprehensive documentation
+- Inclusive community
+- Emotional safety for contributors
+- Political autonomy through open source
+
+## Attribution
+Based on RSR Framework (Rhodium Standard Repository)
+Inspired by rhodium-minimal example
+Follows TPCF (Tri-Perimeter Contribution Framework)
+
+/* SITE */
+Last update: 2025-11-22
+Standards: RFC 9116, humanstxt.org v1.0
+Encoding: UTF-8
+Doctype: Markdown (CommonMark)

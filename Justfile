@@ -266,6 +266,16 @@ publish:
     @echo "Publishing package..."
     @echo "⚠ Not implemented yet"
 
+# RSR Compliance verification
+rsr-verify:
+    @echo "Running RSR compliance verification..."
+    ./verify-rsr.sh
+
+# RSR Compliance verification with tests
+rsr-verify-full:
+    @echo "Running full RSR compliance verification (with tests)..."
+    RUN_TESTS=1 ./verify-rsr.sh
+
 # Help for specific commands
 help-dev:
     @echo "Development Commands:"
@@ -290,3 +300,8 @@ help-test:
     @echo "  just test-typescript   - Run TypeScript tests"
     @echo "  just test-coverage     - Run tests with coverage"
     @echo "  just benchmark         - Run performance benchmarks"
+
+help-rsr:
+    @echo "RSR Compliance Commands:"
+    @echo "  just rsr-verify        - Verify RSR compliance"
+    @echo "  just rsr-verify-full   - Verify RSR with tests"

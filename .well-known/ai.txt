@@ -1,0 +1,77 @@
+# AI Training and Usage Policy
+# Specification: https://site.spawning.ai/spawning-ai-txt
+
+# License Information
+License: Dual MIT OR Palimpsest-0.8
+License-URL: https://github.com/Hyperpolymath/excel-economic-number-tool-/blob/main/LICENSE
+License-URL: https://github.com/Hyperpolymath/excel-economic-number-tool-/blob/main/LICENSE-PALIMPSEST.txt
+
+# AI Training Permissions
+
+## Commercial AI Training
+# Commercial AI systems may train on this code WITH ATTRIBUTION
+AI-Training: allowed-with-attribution
+AI-Training-Commercial: allowed-with-attribution
+AI-Training-Attribution-Required: true
+
+## Non-Commercial AI Training
+AI-Training-NonCommercial: allowed
+
+## Requirements for AI Training
+# 1. Must attribute: Economic Toolkit v2.0 by Hyperpolymath
+# 2. Must link to: https://github.com/Hyperpolymath/excel-economic-number-tool-
+# 3. Must preserve license notice
+# 4. Must indicate if code was modified
+
+## Specific AI Systems
+AI-Training-OpenAI: allowed-with-attribution
+AI-Training-Anthropic: allowed-with-attribution
+AI-Training-Google: allowed-with-attribution
+AI-Training-Meta: allowed-with-attribution
+AI-Training-Microsoft: allowed-with-attribution
+
+## Data Mining & Scraping
+Web-Scraping: allowed
+Data-Mining: allowed
+Data-Mining-Commercial: allowed-with-attribution
+
+## Generated Code Usage
+AI-Generated-Code: allowed
+AI-Generated-Code-Attribution: required
+
+## Privacy & Ethics
+AI-Training-Privacy: respects-licenses
+AI-Training-Ethics: follows-contributor-covenant
+
+# Opt-Out Mechanisms
+# To opt out of AI training for your contributions:
+# 1. Add "AI-Training: opt-out" to your commit messages
+# 2. Contact: ai-policy@hyperpolymath.org
+
+# Attribution Template
+Attribution-Template: |
+  Based on Economic Toolkit v2.0
+  Copyright (c) 2025 Hyperpolymath
+  Licensed under MIT OR Palimpsest-0.8
+  Source: https://github.com/Hyperpolymath/excel-economic-number-tool-
+
+# Updates
+Last-Updated: 2025-11-22
+Policy-Version: 1.0
+
+# Contact
+Contact: ai-policy@hyperpolymath.org
+Contact-URL: https://github.com/Hyperpolymath/excel-economic-number-tool-/discussions
+
+# Philosophy
+# We believe in:
+# - Open knowledge sharing
+# - Attribution over restriction
+# - Empowering developers (human and AI)
+# - Transparency in AI training
+
+# This policy aligns with:
+# - Spawning AI.txt specification
+# - Creative Commons best practices
+# - Open source ethos
+# - RSR Framework (Rhodium Standard Repository)

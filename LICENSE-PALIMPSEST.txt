@@ -1,0 +1,130 @@
+Palimpsest License v0.8
+
+Copyright (c) 2025 Hyperpolymath
+
+Permission is hereby granted to any person obtaining a copy of this software
+and associated documentation files (the "Software"):
+
+1. FREEDOM TO USE
+   - Use the Software for any purpose, including commercial applications
+   - No royalties or attribution required for use
+
+2. FREEDOM TO STUDY
+   - Access, read, and study the source code
+   - Learn from the implementation
+   - Understand how it works
+
+3. FREEDOM TO MODIFY
+   - Create derivative works
+   - Adapt, transform, and build upon the Software
+   - No obligation to publish modifications
+
+4. FREEDOM TO SHARE
+   - Redistribute verbatim copies
+   - Share with attribution to original authors
+   - Distribute modified versions with clear indication of changes
+
+5. ATTRIBUTION REQUIREMENT (for derivatives)
+   When distributing derivative works, you must:
+   a) Clearly indicate that the work is based on this Software
+   b) Provide attribution to the original authors: "Based on Economic Toolkit v2.0 by Hyperpolymath"
+   c) Link to the original source: https://github.com/Hyperpolymath/excel-economic-number-tool-
+   d) Indicate what changes were made
+   e) Preserve this license notice
+
+6. COPYLEFT PROVISION (Optional Adoption)
+   If you choose to adopt this license for your derivative work:
+   a) Your derivative must also be licensed under Palimpsest License v0.8 or later
+   b) This creates a copyleft "family tree" of derivatives
+   c) You may optionally choose a different license (MIT, Apache, GPL, etc.)
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+8. TERMINATION
+   This license automatically terminates if you:
+   a) Violate any terms of this license
+   b) Claim authorship of unmodified original work
+   c) Remove or obscure required attributions
+
+   Upon termination, you must cease distribution and destroy all copies.
+
+9. PATENT GRANT
+   Each contributor grants you a perpetual, worldwide, non-exclusive,
+   no-charge, royalty-free, irrevocable patent license to make, use, sell,
+   and otherwise transfer the Software.
+
+10. TRADEMARK NOTICE
+    This license does not grant permission to use trade names, trademarks,
+    service marks, or product names of the authors, except as required for
+    reasonable and customary attribution.
+
+11. CONTRIBUTION LICENSING
+    By submitting a contribution, you agree to license your contribution under
+    the same terms as this license (dual MIT OR Palimpsest-0.8).
+
+12. COMPATIBILITY
+    This license is compatible with:
+    - MIT License
+    - Apache License 2.0
+    - BSD licenses
+    - Creative Commons Attribution (CC BY)
+
+    NOT compatible with:
+    - GPL (due to GPL's stricter copyleft)
+    - Proprietary licenses (if copyleft option chosen)
+
+---
+
+## Palimpsest License Philosophy
+
+Named after ancient manuscripts that were scraped clean and reused, the
+Palimpsest License embodies the idea that software builds upon prior work,
+layer by layer, creating a rich history of innovation.
+
+Key principles:
+- **Attribution over restriction**: Credit creators, but don't block progress
+- **Voluntary copyleft**: Choose to perpetuate freedom, don't force it
+- **Simplicity**: Easy to understand, easy to comply with
+- **Compatibility**: Works alongside other open source licenses
+
+## Why "Palimpsest"?
+
+In medieval times, parchment was expensive. Scribes would scrape off old text
+and write new content on the same parchment, creating a "palimpsest." Modern
+analysis can reveal the hidden layers beneath.
+
+Similarly, software is built in layers:
+- Original code (first layer)
+- Modifications (second layer)
+- Further derivatives (third layer)
+- And so on...
+
+Each layer acknowledges what came before while adding new value.
+
+## Dual Licensing
+
+This Software is dual-licensed under:
+- MIT License (permissive, no attribution required for use)
+- Palimpsest License v0.8 (attribution required for derivatives)
+
+You may choose which license to follow. If distributing derivatives, Palimpsest
+requires attribution; MIT does not.
+
+## Version History
+
+- v0.8 (2025-11-22): Current version
+  - Dual licensing with MIT
+  - Patent grant clause
+  - Compatibility documentation
+  - Contribution licensing
+
+---
+
+SPDX-License-Identifier: Palimpsest-0.8

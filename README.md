@@ -3,9 +3,12 @@
 [![Build Status](https://img.shields.io/github/workflow/status/Hyperpolymath/excel-economic-number-tool-/CI)](https://github.com/Hyperpolymath/excel-economic-number-tool-/actions)
 [![Coverage](https://img.shields.io/codecov/c/github/Hyperpolymath/excel-economic-number-tool-)](https://codecov.io/gh/Hyperpolymath/excel-economic-number-tool-)
 [![Version](https://img.shields.io/npm/v/economic-toolkit-v2)](https://www.npmjs.com/package/economic-toolkit-v2)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT%20OR%20Palimpsest--0.8-blue.svg)](LICENSE)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen)](package.json)
 [![Platform](https://img.shields.io/badge/platform-Excel%20%7C%20LibreOffice-orange)](README.md)
+[![RSR Compliance](https://img.shields.io/badge/RSR-89%25%20Bronze-cd7f32)](RSR.md)
+[![TPCF](https://img.shields.io/badge/TPCF-Perimeter%203-green)](TPCF.md)
+[![RFC 9116](https://img.shields.io/badge/RFC%209116-compliant-success)](.well-known/security.txt)
 
 > Cross-platform Excel/LibreOffice add-in for economic modeling, data analysis, and investigative research
 
@@ -28,11 +31,25 @@ The Excel Economic Toolkit is a powerful, production-ready add-in that brings ad
 
 Unlike traditional economic data plugins that require complex setup or expensive subscriptions:
 
-- **Free and Open Source**: MIT licensed, no hidden costs
+- **Free and Open Source**: Dual licensed (MIT OR Palimpsest-0.8), no hidden costs
 - **No Server Required**: All computations run locally in your spreadsheet
 - **Offline Support**: Cached data available even when APIs are down
 - **High Performance**: Julia backend for computationally intensive operations
 - **Developer Friendly**: Well-documented API, extensive examples, easy to extend
+
+### RSR Compliance
+
+This project follows the **Rhodium Standard Repository (RSR)** framework for high-quality, production-ready open source projects:
+
+- **89% Compliance Score** (Bronze tier, approaching Silver)
+- **Offline-First**: 100% - SQLite cache with automatic fallback
+- **Documentation**: 100% - Complete docs, RFC 9116 security.txt, Code of Conduct
+- **Build System**: 100% - Justfile automation, Nix reproducible builds, multi-stage CI/CD
+- **TPCF Perimeter 3**: Community Sandbox - All contributions via pull requests
+- **Dual Licensing**: MIT OR Palimpsest-0.8 for maximum flexibility
+- **Emotional Safety**: Extended Code of Conduct with psychological safety provisions
+
+See [RSR.md](RSR.md) for detailed compliance scorecard and [TPCF.md](TPCF.md) for contribution framework.
 
 ---
 
